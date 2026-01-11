@@ -2,10 +2,10 @@
 title: OCR to .srt
 date: "2023-10-17"
 description: Using OCR to extract burnt-in subtitles from video files
-hero: "/public/writing/ocr/ocr.gif"
+hero: "/writing/ocr/ocr.gif"
 ---
 
-![ocr](/public/writing/ocr/ocr.gif)
+![ocr](/writing/ocr/ocr.gif)
 
 I recently tinkered with Torbjørn Pedersen's (National Library of Norway) Python script [video-ocr2srt](https://github.com/UB-Mannheim/tesseract/wiki) to extract burnt-in English subtitles from a digital video. The script performs optical character recognition (OCR) on video files and generates a .srt subtitle file with a detailed JSON file.
 
