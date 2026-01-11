@@ -13,6 +13,9 @@
         "description": {
           "type": "string"
         },
+        "hero": {
+          "type": "string"
+        },
         "url": {
           "type": "string"
         },
@@ -22,7 +25,8 @@
       },
       "required": [
         "title",
-        "date"
+        "date",
+        "hero"
       ],
       "additionalProperties": false
     }

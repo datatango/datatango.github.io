@@ -1,0 +1,16 @@
+---
+title: OCR to .srt
+date: "2023-10-17"
+description: Using OCR to extract burnt-in subtitles from video files
+hero: "/public/writing/ocr/ocr.gif"
+---
+
+![ocr](/public/writing/ocr/ocr.gif)
+
+I recently tinkered with Torbjørn Pedersen's (National Library of Norway) Python script [video-ocr2srt](https://github.com/UB-Mannheim/tesseract/wiki) to extract burnt-in English subtitles from a digital video. The script performs optical character recognition (OCR) on video files and generates a .srt subtitle file with a detailed JSON file.
+
+The script leverages on the EAST text detector model for text detection and the Pytesseract library for OCR. I achieved decent results with it, which may improve with a better quality video file. I suspect the extremely poor transfer of the film may be the cause of numerous duplicate lines and inclusion of stray special characters in the subtitles. But what it does so well is the heavy lifting creating the in and out points for the subtitle lines ╰(_°▽°_)╯! It processed a 110 minute video under 40 minutes, however users will need to 'clean' the .srt file for spelling, grammar, punctuation, and timing after.
+
+```python
+python video-ocr2srt.py -v input -m frozen_east_text_detection.pb -l eng -f 10 -p
+```

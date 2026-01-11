@@ -3,14 +3,20 @@ import { getCollection, render } from "astro:content";
 import Base from "../../layouts/Base.astro";
 
 export async function getStaticPaths() {
-  const posts = await getCollection("writing");
-  return posts.map((post) => ({
+  const posts = (await getCollection("writing")).sort(
+    (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+  );
+  return posts.map((post, index) => ({
     params: { slug: post.id },
-    props: { post },
+    props: {
+      post,
+      prevPost: posts[index + 1] || null,
+      nextPost: posts[index - 1] || null,
+    },
   }));
 }
 
-const { post } = Astro.props;
+const { post, prevPost, nextPost } = Astro.props;
 const { Content } = await render(post);
 ---
 
@@ -20,8 +26,24 @@ const { Content } = await render(post);
       <span class="text-zinc-400 text-sm">{post.data.date}</span>
       <h1 class="text-2xl font-medium mt-1">{post.data.title}</h1>
     </header>
-    <div class="prose prose-invert prose-zinc">
+    <div class="prose prose-sm prose-invert prose-zinc">
       <Content />
     </div>
+    <nav class="flex justify-between mt-8 pt-8 border-t border-zinc-800">
+      <div>
+        {prevPost && (
+          <a href={`${import.meta.env.BASE_URL}/writing/${prevPost.id}`} class="text-zinc-400 hover:text-zinc-100 transition-colors">
+            ← {prevPost.data.title}
+          </a>
+        )}
+      </div>
+      <div>
+        {nextPost && (
+          <a href={`${import.meta.env.BASE_URL}/writing/${nextPost.id}`} class="text-zinc-400 hover:text-zinc-100 transition-colors">
+            {nextPost.data.title} →
+          </a>
+        )}
+      </div>
+    </nav>
   </article>
 </Base>

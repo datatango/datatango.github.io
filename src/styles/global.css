@@ -1,2 +1,7 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+
+.prose {
+  font-family: theme('fontFamily.sans');
+  color: rgb(161 161 170);
+}

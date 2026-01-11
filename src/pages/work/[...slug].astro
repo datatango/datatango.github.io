@@ -19,17 +19,19 @@ const { Content } = await render(project);
     <header class="mb-8">
       <span class="text-zinc-400 text-sm">{project.data.date}</span>
       <h1 class="text-2xl font-medium mt-1">{project.data.title}</h1>
-      {project.data.url && (
-        <a 
-          href={project.data.url} 
-          class="text-sm text-zinc-400 hover:text-zinc-200 transition-colors"
-          target="_blank"
-        >
-          View live →
-        </a>
-      )}
+      {
+        project.data.url && (
+          <a
+            href={project.data.url}
+            class="text-sm text-zinc-400 hover:text-zinc-200 transition-colors"
+            target="_blank"
+          >
+            view live →
+          </a>
+        )
+      }
     </header>
-    <div class="prose prose-invert prose-zinc">
+    <div class="prose prose-sm prose-invert prose-zinc">
       <Content />
     </div>
   </article>
