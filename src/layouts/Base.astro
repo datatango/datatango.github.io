@@ -17,6 +17,18 @@ const { title, description = "Matthew Yang" } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <title>{title}</title>
+    <!-- Google Analytics -->
+    {import.meta.env.PROD && import.meta.env.PUBLIC_GA_MEASUREMENT_ID && (
+    <>
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PUBLIC_GA_MEASUREMENT_ID}`}></script>
+      <script is:inline define:vars={{ measurementId: import.meta.env.PUBLIC_GA_MEASUREMENT_ID }}>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', measurementId);
+      </script>
+    </>
+    )}
   </head>
   <body class="bg-[#1a0d1f] text-zinc-100 text-sm min-h-screen">
     <nav class="max-w-2xl mx-auto px-4 py-8">
