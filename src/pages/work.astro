@@ -17,7 +17,7 @@ const projects = (await getCollection("work")).sort(
         >
           <div class="aspect-video w-full overflow-hidden bg-zinc-900 mb-3">
             <img
-              src={`${import.meta.env.BASE_URL}${project.data.hero.replace(/^\//, '')}`}
+              src={`${import.meta.env.BASE_URL}${project.data.hero}`}
               alt={project.data.title}
               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             />
