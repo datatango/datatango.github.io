@@ -12,7 +12,7 @@ const projects = (await getCollection("work")).sort(
     {
       projects.map((project) => (
         <a
-          href={`${import.meta.env.BASE_URL}/work/${project.id}`}
+          href={`${import.meta.env.BASE_URL}work/${project.id}`}
           class="group block overflow-hidden"
         >
           <div class="aspect-video w-full overflow-hidden bg-zinc-900 mb-3">
