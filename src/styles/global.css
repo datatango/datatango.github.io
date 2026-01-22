@@ -22,4 +22,5 @@ body {
 .prose h3,
 .prose h4 {
   color: rgb(244 244 245);
+  font-weight: 500;
 }
