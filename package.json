@@ -12,6 +12,7 @@
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.1.18",
     "astro": "^5.16.8",
+    "geist": "^1.5.1",
     "rehype-external-links": "^3.0.0",
     "tailwindcss": "^4.1.18",
     "unist-util-visit": "^5.0.0"
