@@ -1,7 +1,25 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+@theme {
+  --font-sans: "Geist", system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-weight: 300;
+}
+
 .prose {
-  font-family: theme('fontFamily.sans');
-  color: rgb(161 161 170);
+  font-family: var(--font-sans);
+  font-weight: 300;
+  color: rgb(228 228 231);
+  line-height: 1.75;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  color: rgb(244 244 245);
 }
