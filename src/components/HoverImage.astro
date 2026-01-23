@@ -1,0 +1,51 @@
+---
+interface Props {
+    src: string;
+    alt?: string;
+}
+const { src, alt = "" } = Astro.props;
+---
+
+<span class="hover-image-wrapper">
+    <slot /> <!-- text -->
+    <img src={src} alt={alt} class="hover-image" />
+</span>
+
+<script>
+    document.querySelectorAll('.hover-image-wrapper').forEach(el => {
+        el.addEventListener('click', (e) => {
+            e.stopPropagation();
+            el.classList.toggle('active');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.hover-image-wrapper.active').forEach(el => {
+            el.classList.remove('active');
+        });
+    });
+</script>
+
+<style>
+    .hover-image-wrapper {
+        position: relative;
+        display: inline;
+        border-bottom: 1px dotted #71717a;
+        cursor: pointer;
+    }
+    .hover-image {
+        display: none;
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 8px;
+        width: 1200px;
+        border-radius: 4px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        z-index: 10;
+    }
+    .hover-image-wrapper:hover .hover-image,
+    .hover-image-wrapper.active .hover-image {
+        display: block;
+    }
+</style>
