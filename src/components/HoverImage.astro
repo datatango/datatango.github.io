@@ -34,12 +34,12 @@ const { src, alt = "" } = Astro.props;
     }
     .hover-image {
         display: none;
-        position: absolute;
-        bottom: 100%;
+        position: fixed;
+        top: 50%;
         left: 50%;
-        transform: translateX(-50%);
-        margin-bottom: 8px;
-        width: 1200px;
+        transform: translate(-50%, -50%);
+        width: 600px;
+        max-width: 90vw;
         border-radius: 4px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.3);
         z-index: 10;
@@ -47,16 +47,5 @@ const { src, alt = "" } = Astro.props;
     .hover-image-wrapper:hover .hover-image,
     .hover-image-wrapper.active .hover-image {
         display: block;
-    }
-
-    @media (max-width: 768px) {
-        .hover-image {
-            width: 90vw;
-            left: 50%;
-            position: fixed;
-            bottom: auto;
-            top: 50%;
-            transform: translate(-50%, -50%);
-        }
     }
 </style>
