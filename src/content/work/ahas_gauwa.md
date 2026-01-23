@@ -1,5 +1,5 @@
 ---
-title: Ahas Gauwa (1974)
+title: Restoring Ahas Gauwa (1974)
 date: "2023-10-17"
 description: Using OCR to extract burnt-in subtitles from video files
 hero: "writing/ocr/ocr.gif"
