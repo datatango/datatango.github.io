@@ -48,4 +48,15 @@ const { src, alt = "" } = Astro.props;
     .hover-image-wrapper.active .hover-image {
         display: block;
     }
+
+    @media (max-width: 768px) {
+        .hover-image {
+            width: 90vw;
+            left: 50%;
+            position: fixed;
+            bottom: auto;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
 </style>
