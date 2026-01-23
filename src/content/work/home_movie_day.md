@@ -7,7 +7,7 @@ hero: "work/hmd/hmd.png"
 
 ![ocr](/work/hmd/hmd.png)
 
-In 2022, I organized Singapore’s first Home Movie Day, with the generous support of Momo Film Co. and a community of collaborators & friends (listed below).
+In 2022, I organized Singapore’s first Home Movie Day with the generous support of Momo Film Co., alongside a generous community of collaborators and friends (listed below).
 
 Across the weekend of 13–14 August 2022, we screened a curated programme of home movies from Singapore, spanning works from the 1960s to contemporary pieces. The screenings also included short films by experimental filmmakers Gözde and Russel Zehnder, situating personal filmmaking within a broader experimental context.
 
