@@ -1,6 +1,24 @@
 ---
 title: Home Movie Day Singapore
 date: "2023-12-01"
-description: Using OCR to extract burnt-in subtitles from video files
-hero: "writing/hmd/hmd_sg_small.jpg"
+description: Organizing the first Home Movie Day event in Singapore
+hero: "work/hmd/hmd.png"
 ---
+
+![ocr](/work/hmd/hmd.png)
+
+In 2022, I organized Singapore’s first Home Movie Day, with the generous support of Momo Film Co. and a community of collaborators & friends (listed below).
+
+Across the weekend of 13–14 August 2022, we screened a curated programme of home movies from Singapore, spanning works from the 1960s to contemporary pieces. The screenings also included short films by experimental filmmakers Gözde and Russel Zehnder, situating personal filmmaking within a broader experimental context.
+
+Kodak generously supported the event by providing Super 8 film stock, enabling us to support eight filmmakers, each of whom produced a new film specially for Home Movie Day Singapore 2022. Many of which went on to screen at international film festivals.
+
+In addition, a Super 8 workshop was held, where participants learned to shoot and hand-process their own films. These films were then projected during the closing programme, bringing the weekend full circle—from home movies of the past to newly created works shared collectively.
+
+**With gratitude**
+
+**Supporters**  
+Wan Fong · Felix Kottman · Patrick Thng · Weng · Celine Yeow · Tan Si En · Sally Tan (Kodak Singapore) · Thong Kay Wee · Han Feng Yu · Paul Lin · Richard Tuohy and Dianna Barrie (Nanolab) · Analog Film Lab · Sasha Han · Nicholas Yeo · Kate Dollenmayer
+
+**Filmmakers**  
+Barry Zehnder · Finbarr Fallon · Grace Song · Gözde and Russel Zehnder · Jonathan Choo · Juan Qian · Ivan Tan · Mark Chua and Lam Li Shuen · Megan Lim · Michael Kam · Michael Rogge · Salvatore Huang (Sloth Creatives) · Tang Kang Sheng
