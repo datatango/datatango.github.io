@@ -17,6 +17,7 @@ const { title, description = "Matthew Yang" } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <title>{title}</title>
+    <link rel="icon" href="/favicon.ico" sizes="any" />
     <!-- Google Analytics start-->
     {import.meta.env.PROD && import.meta.env.PUBLIC_GA_MEASUREMENT_ID && (
     <>
