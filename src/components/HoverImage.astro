@@ -29,8 +29,20 @@ const { src, alt = "" } = Astro.props;
     .hover-image-wrapper {
         position: relative;
         display: inline;
-        border-bottom: 1px dotted #71717a;
+        border-bottom: 2px dotted #d4d4d8;
         cursor: pointer;
+    }
+    .hover-image-wrapper::before {
+        content: '';
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 9;
+        pointer-events: none;
     }
     .hover-image {
         display: none;
@@ -43,6 +55,11 @@ const { src, alt = "" } = Astro.props;
         border-radius: 4px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.3);
         z-index: 10;
+        pointer-events: none;
+    }
+    .hover-image-wrapper:hover::before,
+    .hover-image-wrapper.active::before {
+        display: block;
     }
     .hover-image-wrapper:hover .hover-image,
     .hover-image-wrapper.active .hover-image {
