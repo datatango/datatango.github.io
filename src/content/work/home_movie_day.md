@@ -17,8 +17,16 @@ In addition, a Super 8 workshop was held, where participants learned to shoot an
 
 **With gratitude**
 
-**Supporters**  
+<div style="text-align: center;"><u>
+Supporters</u></div>
 Wan Fong · Felix Kottman · Patrick Thng · Weng · Celine Yeow · Tan Si En · Sally Tan (Kodak Singapore) · Thong Kay Wee · Han Feng Yu · Paul Lin · Richard Tuohy and Dianna Barrie (Nanolab) · Analog Film Lab · Sasha Han · Nicholas Yeo · Kate Dollenmayer
-
-**Filmmakers**  
+<br><br>
+<div style="text-align: center;"><u>Filmmakers</u></div>    
 Barry Zehnder · Finbarr Fallon · Grace Song · Gözde and Russel Zehnder · Jonathan Choo · Juan Qian · Ivan Tan · Mark Chua and Lam Li Shuen · Megan Lim · Michael Kam · Michael Rogge · Salvatore Huang (Sloth Creatives) · Tang Kang Sheng
+
+**Press**
+
+***[Interview with Matthew Yang of Home Movie Day Singapore](https://www.centerforhomemovies.org/interview-with-matthew-yang-of-home-movie-day-singapore/)*** — Kate Dollenmayer, 2023
+
+***[Communal Projections for Home Movie Networks in Singapore](https://www.sinema.sg/2022/11/03/communal-projections-for-home-movie-networks-in-singapore/)*** — Sasha Han, 2022
+
