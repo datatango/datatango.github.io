@@ -5,13 +5,15 @@ import HoverImage from "../components/HoverImage.astro";
 
 <Base title="Matthew Yang">
   <figure class="mb-4">
-    <img
-      src="https://luna.lib.uchicago.edu/luna/servlet/iiif/UCHICAGO~17~17~1738~1315809/full/!400,400/0/default.jpg"
-      alt="Felis catus"
-      width="400"
-      height="400"
-      class="rounded mx-auto block"
-    />
+    <div class="group overflow-hidden rounded mx-auto w-fit">
+      <img
+        src="https://luna.lib.uchicago.edu/luna/servlet/iiif/UCHICAGO~17~17~1738~1315809/full/!400,400/0/default.jpg"
+        alt="Felis catus"
+        width="400"
+        height="400"
+        class="block group-hover:scale-105 transition-transform duration-300"
+      />
+    </div>
     <figcaption class="text-center text-zinc-500 text-xs mt-2">
       <a
         href="https://luna.lib.uchicago.edu/luna/servlet/detail/UCHICAGO~17~17~1738~1315809"
@@ -37,10 +39,9 @@ import HoverImage from "../components/HoverImage.astro";
     > for film & TV, working through the industry's transition from film to digital.
     After working on dozens of shorts, features, and commercials, I turned to <HoverImage
       src="writing/nypl/nypl_1.jpeg">film preservation</HoverImage
-    > after learning in a film history class that numerous films from
-    Singapore's Golden Age had been lost. Since then, I've focused on applying technical
-    and computational approaches to digital and media preservation, and open access
-    for cultural heritage.
+    > after learning in a film history class that numerous films from Singapore's
+    Golden Age had been lost. Since then, I've focused on applying technical and computational
+    approaches to digital and media preservation, and open access for cultural heritage.
   </p>
 
   <p class="text-zinc-200 leading-relaxed mb-4">
