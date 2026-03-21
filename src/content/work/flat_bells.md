@@ -5,7 +5,7 @@ description: Conserving Flat Bells by Alexandre Estrela
 hero: "writing/estrela/flatbells.jpg"
 ---
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/976503231?h=e07c247ad4" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/976503231?h=e07c247ad4" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
 
 In 2024, I prepared and delivered a conservation proposal for *Flat Bells* (2023) by Portuguese artist Alexandre Estrela for MoMA. Commissioned and acquired by the museum, the work features five-channel computer-generated video, eight-channel audio, and four engraved aluminium plates.
 
