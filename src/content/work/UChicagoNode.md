@@ -2,7 +2,7 @@
 title: UChicagoNode
 date: "2026-01-10"
 description: UChicagoNode — A unified open-access discovery platform for digital collections
-hero: "work/node/b2016f44pw1d.jpg"
+hero: "work/node/ssmc.jpg"
 url: https://node.uchicago.edu
 ---
 
