@@ -1,14 +1,15 @@
 ---
 title: Conference Presentations
-date: "2026-03-23"
+date: "2026-04-07"
 description: Conference Presentations
 hero: "writing/presentations/myang_digitalshare.jpg"
 ---
 
 | Year | Title | Conference |
 |------|-------|------------|
+| 2026 | Serving Images Hot: Evaluating IIIF Image Servers and Image File Format Performance | International Image Interoperability Framework (IIIF) Annual Conference & Showcase 2026, Leiden, The Netherlands |
 | 2025 | L.A. Confidential: Inside Digital Preservation at Getty Digital | DPC-Getty Digital Preservation Southern California Convening, Los Angeles, United States |
-| 2025 | SEAFILM: Reframing Access to Southeast Asian Cinema with IIIF | International Image Interoperability Framework (IIIF) Annual Conference 2025, Leeds, United Kingdom |
+| 2025 | SEAFILM: Reframing Access to Southeast Asian Cinema with IIIF | International Image Interoperability Framework (IIIF) Annual Conference & Showcase 2025, Leeds, United Kingdom |
 | 2025 | A Click in Time: Approaches to Web Archiving at Getty Digital | Getty Digital Share 2025, Los Angeles, USA |
 | 2024 | The Great Migration: Planning & Performing Media Migrations for Audiovisual Collections | FIAT/IFTA World Conference 2024, Bucharest, Romania |
 | 2024 | The Great Migration: Planning & Performing Media Migrations for Audiovisual Collections | 28th Southeast Asia-Pacific Audiovisual Archive Association (SEAPAVAA) Conference 2024, Solo, Indonesia |
