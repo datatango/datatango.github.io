@@ -9,10 +9,17 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/mdx": "^5.0.3",
+    "@astrojs/react": "^5.0.3",
+    "@samvera/clover-iiif": "^3.4.0",
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.1.18",
-    "astro": "^5.18.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^6.1.5",
     "geist": "^1.5.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "rehype-external-links": "^3.0.0",
     "tailwindcss": "^4.1.18",
     "unist-util-visit": "^5.0.0"
