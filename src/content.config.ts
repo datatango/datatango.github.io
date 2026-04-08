@@ -11,7 +11,7 @@ const writing = defineCollection({
 });
 
 const work = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/work" }),
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/work" }),
   schema: z.object({
     title: z.string(),
     date: z.string(),
