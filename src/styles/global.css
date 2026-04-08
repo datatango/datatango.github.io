@@ -54,3 +54,14 @@ body {
   aspect-ratio: 16 / 9;
   height: auto;
 }
+
+.full-bleed {
+  height: 600px;
+  margin: 2rem 0;
+}
+
+@media (min-width: 672px) {
+  .full-bleed {
+    margin: 2rem calc(-50vw + 336px);
+  }
+}
