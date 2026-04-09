@@ -11,6 +11,9 @@ export default defineConfig({
   site: "https://www.matthewyang.io",
   base: "/",
   integrations: [mdx(), sitemap(), react()],
+  build: {
+    inlineStylesheets: "always",
+  },
 markdown: {
     remarkPlugins: [[remarkBaseUrl, ""]],
     rehypePlugins: [
