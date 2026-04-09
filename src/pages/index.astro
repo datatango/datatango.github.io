@@ -1,16 +1,18 @@
 ---
 import Base from "../layouts/Base.astro";
 import HoverImage from "../components/HoverImage.astro";
+import { Image } from "astro:assets";
+import felisCatus from "../assets/landing/felis-cactus.jpg";
 ---
 
 <Base title="Matthew Yang">
   <figure class="mb-4">
     <div class="group overflow-hidden rounded mx-auto w-fit">
-      <img
-        src="https://luna.lib.uchicago.edu/luna/servlet/iiif/UCHICAGO~17~17~1738~1315809/full/!400,400/0/default.jpg"
+      <Image
+        src={felisCatus}
         alt="Felis catus"
-        width="400"
-        height="400"
+        width={400}
+        height={400}
         fetchpriority="high"
         class="block group-hover:scale-105 transition-transform duration-300"
       />

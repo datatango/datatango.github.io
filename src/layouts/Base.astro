@@ -36,12 +36,10 @@ const pageTitle = title === "Matthew Yang" ? title : `${title} — Matthew Yang`
     <!-- Font preloads -->
     <link rel="preload" as="font" href="/fonts/Geist-Light.woff2" type="font/woff2" crossorigin />
     <link rel="preload" as="font" href="/fonts/Geist-Medium.woff2" type="font/woff2" crossorigin />
-    <!-- Preconnect for external resources -->
-    <link rel="preconnect" href="https://luna.lib.uchicago.edu" />
-    <!-- Google Analytics start-->
+<!-- Google Analytics start-->
     {import.meta.env.PROD && import.meta.env.PUBLIC_GA_MEASUREMENT_ID && (
     <>
-      <script async src={`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PUBLIC_GA_MEASUREMENT_ID}`}></script>
+      <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PUBLIC_GA_MEASUREMENT_ID}`}></script>
       <script is:inline define:vars={{ measurementId: import.meta.env.PUBLIC_GA_MEASUREMENT_ID }}>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
