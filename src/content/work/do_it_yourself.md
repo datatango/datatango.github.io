@@ -2,7 +2,7 @@
 title: "HÁGALO UD. MISMO No.3 Una guía de preservación de soportes ópticos (CDs y DVDs) para artistas y video realizadores"
 date: "2024-01-01"
 description: A practical guide to preserving CDs and DVDs for artists, filmmakers, and cultural workers
-hero: "work/hum/hum.jpg"
+hero: "do_it_yourself/hero.jpg"
 url: https://idartesencasa.gov.co/artes-audiovisuales/libros/hagalo-ud-mismo-no3-una-guia-de-preservacion-de-soportes-opticos-cds-y
 ---
 

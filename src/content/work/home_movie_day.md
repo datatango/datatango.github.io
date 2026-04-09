@@ -2,7 +2,7 @@
 title: Home Movie Day Singapore
 date: "2023-12-01"
 description: Organizing the first Home Movie Day event in Singapore
-hero: "work/hmd/hmd.png"
+hero: "home_movie_day/hero.png"
 ---
 
 ![hmd](/work/hmd/hmd.png)

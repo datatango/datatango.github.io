@@ -2,7 +2,7 @@
 title: Conserving Flat Bells (2023)
 date: "2024-05-13"
 description: Conserving Flat Bells by Alexandre Estrela
-hero: "writing/estrela/flatbells.jpg"
+hero: "flat_bells/hero.jpg"
 ---
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/976503231?h=e07c247ad4" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
