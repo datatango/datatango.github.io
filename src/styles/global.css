@@ -60,8 +60,21 @@ body {
   margin: 2rem 0;
 }
 
+.full-bleed-img {
+  margin: 2rem 0;
+}
+
+.full-bleed-img img {
+  width: 100%;
+  display: block;
+}
+
 @media (min-width: 672px) {
   .full-bleed {
+    margin: 2rem calc(-50vw + 336px);
+  }
+
+  .full-bleed-img {
     margin: 2rem calc(-50vw + 336px);
   }
 }
