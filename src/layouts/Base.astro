@@ -33,6 +33,11 @@ const pageTitle = title === "Matthew Yang" ? title : `${title} — Matthew Yang`
 <title>{pageTitle}</title>
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="alternate" type="application/rss+xml" title="Matthew Yang — Writing" href="/rss.xml" />
+    <!-- Font preloads -->
+    <link rel="preload" as="font" href="/fonts/Geist-Light.woff2" type="font/woff2" crossorigin />
+    <link rel="preload" as="font" href="/fonts/Geist-Medium.woff2" type="font/woff2" crossorigin />
+    <!-- Preconnect for external resources -->
+    <link rel="preconnect" href="https://luna.lib.uchicago.edu" />
     <!-- Google Analytics start-->
     {import.meta.env.PROD && import.meta.env.PUBLIC_GA_MEASUREMENT_ID && (
     <>
