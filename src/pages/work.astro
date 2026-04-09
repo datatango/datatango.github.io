@@ -25,18 +25,32 @@ const projectsWithImages = await Promise.all(
 <Base title="Work">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     {
-      projectsWithImages.map((project) => (
+      projectsWithImages.map((project, i) => (
         <a
           href={`${import.meta.env.BASE_URL}work/${project.id}`}
           class="group block overflow-hidden"
         >
           <div class="aspect-video w-full overflow-hidden bg-zinc-900 mb-3">
             {project.image ? (
-              <Image
-                src={project.image}
-                alt={project.data.title}
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-              />
+              project.image.format === "gif" ? (
+                <img
+                  src={project.image.src}
+                  alt={project.data.title}
+                  width={project.image.width}
+                  height={project.image.height}
+                  loading={i === 0 ? "eager" : "lazy"}
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              ) : (
+                <Image
+                  src={project.image}
+                  alt={project.data.title}
+                  widths={[320, 640]}
+                  sizes="(min-width: 768px) 308px, 640px"
+                  loading={i === 0 ? "eager" : "lazy"}
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              )
             ) : (
               <div class="w-full h-full bg-zinc-800" />
             )}
